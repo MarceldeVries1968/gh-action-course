@@ -1,0 +1,8 @@
+name: lint build and test
+on: [push]
+jobs:
+  lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+      - uses: actions/checkout@V3
