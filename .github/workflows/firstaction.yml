@@ -1,7 +1,7 @@
 name: lint build and test
-on: push
+on: [push, workflow-dispatch]
 jobs:
-  lint
+  lint:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
