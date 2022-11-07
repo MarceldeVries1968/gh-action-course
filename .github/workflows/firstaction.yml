@@ -11,6 +11,6 @@ jobs:
       - name: run lint
         run: npm run lint
       - name: run build
-        run: npm build
+        run: npm run build
       - name: run test
-        run: npm test
+        run: npm run test
